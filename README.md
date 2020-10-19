@@ -8,8 +8,11 @@ ROS command, codes and links for EEM404
 
 http://wiki.ros.org/jackal_description
 base --> Base Jackal, includes IMU and GPS.
+
 front_laser --> Include front-facing LMS1xx LIDAR.
+
 front_bumblebee2 --> Includes front-facing Pointgrey Bumblebee2.
+
 front_flea3 --> Includes front-facing Pointgrey Flea3.
 
 
