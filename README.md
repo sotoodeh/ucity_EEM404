@@ -7,6 +7,7 @@ ROS command, codes and links for EEM404
 - roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
 
 http://wiki.ros.org/jackal_description
+
 base --> Base Jackal, includes IMU and GPS.
 
 front_laser --> Include front-facing LMS1xx LIDAR.
@@ -24,6 +25,7 @@ front_flea3 --> Includes front-facing Pointgrey Flea3.
 
 
 # stereo image rectification 
+
 - roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
 http://wiki.ros.org/stereo_image_proc
 - ROS_NAMESPACE=front rosrun stereo_image_proc stereo_image_proc
