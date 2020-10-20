@@ -3,6 +3,7 @@ ROS command, codes and links for EEM404
 
 
 ## jackal robot in Gazebo  
+/home/ros/Pictures/Screenshot from 2020-10-20 12-06-58.png
 Jackal is a small, fast, entry-level field robotics research platform. It has an onboard computer, GPS and IMU fully integrated with ROS for out-of-the-box autonomous capability. As with all Clearpath robots, Jackal is plug-and-play compatible with a huge list of robot accessories to quickly expand your research and development.
 
 - To install the package from the source 
