@@ -22,11 +22,11 @@ To control the robot, you can use:
 
 2- rqt gui
 
-rosrun rqt_robot_steering rqt_robot_steering
+- rosrun rqt_robot_steering rqt_robot_steering
 
 or 
 
-rosrun rqt_gui rqt_gui
+- rosrun rqt_gui rqt_gui
 
 3- command 
 
@@ -47,7 +47,7 @@ angular:
 
 or
 
-rostopic pub /cmd_vel geometry_msgs/Twist -r 3 -- '[0.5,0.0,0.0]' '[0.0, 0.0, 0.0]'
+- rostopic pub /cmd_vel geometry_msgs/Twist -r 3 -- '[0.5,0.0,0.0]' '[0.0, 0.0, 0.0]'
 
 
 
