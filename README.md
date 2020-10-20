@@ -17,11 +17,11 @@ You may check this directory to see the launch file
 To control the robot, you can use: 
 
 1- rviz arrows: 
-- 
+
 - roslaunch jackal_viz view_robot.launch
 
 2- rqt gui
--
+
 rosrun rqt_robot_steering rqt_robot_steering
 
 or 
