@@ -2,6 +2,59 @@
 ROS command, codes and links for EEM404
 
 
+## jackal robot in Gazebo  
+
+- To install the package from the source 
+
+sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros-melodic-jackal-navigation ros-melodic-jackal-viz ros-melodic-jackal-tutorials ros-melodic-jackal-gazebo ros-melodic-jackal-control ros-melodic-jackal-msgs ros-melodic-jackal-description ros-melodic-jackal-cartographer-navigation
+
+After installation you may need to restart your machine
+
+You may check this directory to see the launch file
+
+- cd /opt/ros/melodic/share/jackal_gazebo/launch
+
+To control the robot, you can use: 
+
+1- rviz arrows: 
+- 
+- roslaunch jackal_viz view_robot.launch
+
+2- rqt gui
+-
+rosrun rqt_robot_steering rqt_robot_steering
+
+or 
+
+rosrun rqt_gui rqt_gui
+
+3- command 
+
+- rostopic list: 
+
+/cmd_vel
+
+/geometry_msgs/Twist
+
+- rostopic pub /cmd_vel geometry_msgs/Twist "linear:
+  x: 0.20
+  y: 0.0
+  z: 0.0
+angular:
+  x: 0.0
+  y: 0.0
+  z: 0.30" -r 3
+
+or
+
+rostopic pub /cmd_vel geometry_msgs/Twist -r 3 -- '[0.5,0.0,0.0]' '[0.0, 0.0, 0.0]'
+
+
+
+
+
+
+
 ## Publish the stereo images in Jackal Gazebo
 
 - roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
