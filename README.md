@@ -8,7 +8,7 @@ ROS command, codes and links for EEM404
 - cd ../..
 - tree
 - catkin_make       # to build the nodes http://wiki.ros.org/catkin/commands/catkin_make 
-- optional: -DCMAKE_BUILD_TYPE=Release or -DCMAKE_BUILD_TYPE=Debug (or not specifying the type-->Debug)
+- optional: catkin_make -DCMAKE_BUILD_TYPE=Release # or not specifying the type --> Debug
 
 Additionally, if you look in your current directory you should now have a 'build' and 'devel' folder. Inside the 'devel' folder you can see that there are now several setup.*sh files. Sourcing any of these files will overlay this workspace on top of your environment. To understand more about this see the general catkin documentation. 
 
