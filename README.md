@@ -29,7 +29,9 @@ run the nodes in two new terminals:
 - rosrun hello_world talker.py
 - rosrun hello_world listener.py
 
+rosout is a handy tool for debugging. http://wiki.ros.org/rosout
 
+you can pull up messages using rqt_console: http://wiki.ros.org/rqt_console
 
 A; B    # Run A and then B, regardless of success of A
 
