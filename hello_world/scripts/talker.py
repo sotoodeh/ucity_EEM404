@@ -15,7 +15,9 @@ def talker():
     rate = rospy.Rate(10)                                     # 10Hz After creating the instance, we have to call the sleep() function inside it 
                                                               # to get the rate in effect. 
     # With its argument of 10, we should expect to go through the loop 10 times per second (as long as our processing time does not exceed 1/10th of a second!)
-    while not rospy.is_shutdown():                            # creating a loop to publish a msg
+    
+    # creating a loop to publish a msg
+    while not rospy.is_shutdown():                            
         hello_str = "hello world %s" % rospy.get_time()
         rospy.loginfo(hello_str)
         pub.publish(hello_str)
