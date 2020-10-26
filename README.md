@@ -18,6 +18,8 @@ Before continuing source your new setup.*sh file.
 
 - source devel/setup.bash
 
+talker and listener codes in python: http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
 to make python codes executable:
 
 - chmod +x scripts/talker.py scripts/listener.py
