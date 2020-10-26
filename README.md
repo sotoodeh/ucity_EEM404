@@ -1,6 +1,21 @@
 # ucity_EEM404
 ROS command, codes and links for EEM404
 
+## creating hello_world package
+
+mkdir -p catkin_ws/src && cd catkin_ws/src
+
+catkin_create_pkg hello_world roscpp rospy std_msgs
+
+cd ../..
+
+tree
+
+catkin_make
+
+source devel/setup.bash
+
+
 
 ## jackal robot in Gazebo  
 
