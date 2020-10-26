@@ -3,17 +3,29 @@ ROS command, codes and links for EEM404
 
 ## creating hello_world package
 
-mkdir -p catkin_ws/src && cd catkin_ws/src
+- mkdir -p catkin_ws/src && cd catkin_ws/src
 
-catkin_create_pkg hello_world roscpp rospy std_msgs
+- catkin_create_pkg hello_world roscpp rospy std_msgs  # http://wiki.ros.org/ROS/Tutorials/catkin/CreatingPackage
 
-cd ../..
+- cd ../..
 
-tree
+- tree
 
-catkin_make
+- catkin_make       # to build the nodes http://wiki.ros.org/catkin/commands/catkin_make
 
-source devel/setup.bash
+The .bashrc file is a script file that’s executed when a user logs in. The file itself contains a series of configurations for the terminal session. This includes setting up or enabling: coloring, completion, shell history, command aliases, and more. 
+
+- source devel/setup.bash
+
+to make python codes executable:
+
+- chmod +x scripts/talker.py scripts/listener.py
+
+run the nodes in two new terminals:
+
+- rosrun hello_world talker.py
+- rosrun hello_world listener.py
+
 
 
 A; B    # Run A and then B, regardless of success of A
@@ -34,9 +46,9 @@ https://code.visualstudio.com/Download
 
 Jackal is a small, fast, entry-level field robotics research platform. It has an onboard computer, GPS and IMU fully integrated with ROS for out-of-the-box autonomous capability. As with all Clearpath robots, Jackal is plug-and-play compatible with a huge list of robot accessories to quickly expand your research and development.
 
-- To install the package from the source 
+To install the package from the source 
 
-sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros-melodic-jackal-navigation ros-melodic-jackal-viz ros-melodic-jackal-tutorials ros-melodic-jackal-gazebo ros-melodic-jackal-control ros-melodic-jackal-msgs ros-melodic-jackal-description ros-melodic-jackal-cartographer-navigation
+- sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros-melodic-jackal-navigation ros-melodic-jackal-viz ros-melodic-jackal-tutorials ros-melodic-jackal-gazebo ros-melodic-jackal-control ros-melodic-jackal-msgs ros-melodic-jackal-description ros-melodic-jackal-cartographer-navigation
 
 After installation you may need to restart your machine
 
