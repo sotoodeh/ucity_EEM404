@@ -4,13 +4,9 @@ ROS command, codes and links for EEM404
 ## creating hello_world package
 
 - mkdir -p catkin_ws/src && cd catkin_ws/src
-
 - catkin_create_pkg hello_world roscpp rospy std_msgs  # http://wiki.ros.org/ROS/Tutorials/catkin/CreatingPackage
-
 - cd ../..
-
 - tree
-
 - catkin_make       # to build the nodes http://wiki.ros.org/catkin/commands/catkin_make
 
 The .bashrc file is a script file that’s executed when a user logs in. The file itself contains a series of configurations for the terminal session. This includes setting up or enabling: coloring, completion, shell history, command aliases, and more. 
