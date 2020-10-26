@@ -25,7 +25,7 @@ A || B  # Run B if and only if A failed
 A &     # Run A in background.
 
 
-## installing vscode
+## installing Visual Studio Code (VSCode)
 
 https://code.visualstudio.com/Download
 
