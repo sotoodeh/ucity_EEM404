@@ -55,6 +55,7 @@ you can pull up messages using rqt_console: http://wiki.ros.org/rqt_console
 https://code.visualstudio.com/Download
 
 - code .
+- extensions: c/c++ , python , ROS , Cmake
 
 To fix the issue with rospkg:
 
