@@ -8,8 +8,9 @@ ROS command, codes and links for EEM404
 src folder --> is the place where you can create, or clone, new packages from repositories. ROS packages only build and create an executable when it is in the src folder. When we execute the catkin_make command from the workspace folder, it checks inside the src folder and build each packages.
 
 - catkin_create_pkg hello_world roscpp rospy std_msgs  # http://wiki.ros.org/ROS/Tutorials/catkin/CreatingPackage
-- cd ../..
+- cd ..
 - tree
+- rosdep install --from-paths src --ignore-src --rosdistro melodic
 - catkin_make       # to build the nodes http://wiki.ros.org/catkin/commands/catkin_make 
 - optional: catkin_make -DCMAKE_BUILD_TYPE=Release # or not specifying the type --> Debug
 
