@@ -119,14 +119,14 @@ front_bumblebee2 --> Includes front-facing Pointgrey Bumblebee2.
 front_flea3 --> Includes front-facing Pointgrey Flea3.
 
 
-# image view 
+## image view 
 - rostopic list
 - rqt_image_view
 - rosrun rviz rviz
 - roslaunch jackal_viz view_robot.launch
 
 
-# stereo image rectification 
+## stereo image rectification 
 
 - roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
 
