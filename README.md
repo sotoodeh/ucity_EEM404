@@ -3,7 +3,7 @@ ROS command, codes and links for EEM404
 
 ## creating hello_world package
 
-- mkdir -p catkin_ws/src && cd catkin_ws/src
+- mkdir -p my_catkin_ws/src && cd my_catkin_ws/src
 
 src folder --> is the place where you can create, or clone, new packages from repositories. ROS packages only build and create an executable when it is in the src folder. When we execute the catkin_make command from the workspace folder, it checks inside the src folder and build each packages.
 
