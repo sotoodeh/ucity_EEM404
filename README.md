@@ -35,17 +35,17 @@ run the nodes in two new terminals:
 - rosrun hello_world talker.py
 - rosrun hello_world listener.py
 
+
+Visualizing a Computing Graph
+
+- roslaunch hello_world talker_listener.launch
+- rqt_graph
+
 rosout is a handy tool for debugging. http://wiki.ros.org/rosout rosout subscribes to the standard /rosout topic, records these messages in a textual log file, and rebroadcasts the messages on /rosout_agg
 
 you can pull up messages using rqt_console: http://wiki.ros.org/rqt_console
 
-A; B    # Run A and then B, regardless of success of A
 
-A && B  # Run B if and only if A succeeded
-
-A || B  # Run B if and only if A failed
-
-A &     # Run A in background.
 
 
 ## installing Visual Studio Code (VSCode)
@@ -148,3 +148,14 @@ http://wiki.ros.org/stereo_image_proc/Tutorials/ChoosingGoodStereoParameters
 - roslaunch jackal_viz view_robot.launch
 
 
+
+
+
+
+A; B    # Run A and then B, regardless of success of A
+
+A && B  # Run B if and only if A succeeded
+
+A || B  # Run B if and only if A failed
+
+A &     # Run A in background.
