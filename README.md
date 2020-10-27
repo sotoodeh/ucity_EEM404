@@ -4,13 +4,19 @@ ROS command, codes and links for EEM404
 ## creating hello_world package
 
 - mkdir -p catkin_ws/src && cd catkin_ws/src
+
+src folder --> is the place where you can create, or clone, new packages from repositories. ROS packages only build and create an executable when it is in the src folder. When we execute the catkin_make command from the workspace folder, it checks inside the src folder and build each packages.
+
 - catkin_create_pkg hello_world roscpp rospy std_msgs  # http://wiki.ros.org/ROS/Tutorials/catkin/CreatingPackage
 - cd ../..
 - tree
 - catkin_make       # to build the nodes http://wiki.ros.org/catkin/commands/catkin_make 
 - optional: catkin_make -DCMAKE_BUILD_TYPE=Release # or not specifying the type --> Debug
 
-Additionally, if you look in your current directory you should now have a 'build' and 'devel' folder. Inside the 'devel' folder you can see that there are now several setup.*sh files. Sourcing any of these files will overlay this workspace on top of your environment. To understand more about this see the general catkin documentation. 
+build folder --> the catkin tool creates some build files and intermediate cache CMake files inside the build folder. These cache files help prevent from rebuilding all the packages when running the catkin_make command; for example, if you build five packages, and then add a new package to the src folder, only the new package builds during the next catkin_make command. This is because of those cache files inside the build folder. If you delete the build folder, all the packages build again.
+
+devel Folder --> When we run the catkin_make command, each package is built, and if the build process is successful, the target executable is created. The executable
+is stored inside the devel folder. Inside the 'devel' folder you can see that there are now several setup.*sh files. Sourcing any of these files will overlay this workspace on top of your environment. To understand more about this see the general catkin documentation. 
 
 The .bashrc file is a script file that’s executed when a user logs in. The file itself contains a series of configurations for the terminal session. This includes setting up or enabling: coloring, completion, shell history, command aliases, and more. 
 
