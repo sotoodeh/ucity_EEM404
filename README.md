@@ -29,17 +29,18 @@ talker and listener codes in python: http://wiki.ros.org/ROS/Tutorials/WritingPu
 
 to make python codes executable:
 
-- chmod +x scripts/talker.py scripts/listener.py
+- chmod +x scripts/talker_py.py scripts/listener_py.py
 
 run the nodes in two new terminals:
 
-- rosrun hello_world talker.py
-- rosrun hello_world listener.py
+- rosrun hello_world talker_py.py
+- rosrun hello_world listener_py.py
 
 
 Visualizing a Computing Graph
 
-- roslaunch hello_world talker_listener.launch
+- roslaunch hello_world talker_listener_cpp.launch   # for cpp
+- roslaunch hello_world talker_listener_py.launch   # for python
 - rqt_graph
 
 rosout is a handy tool for debugging. http://wiki.ros.org/rosout rosout subscribes to the standard /rosout topic, records these messages in a textual log file, and rebroadcasts the messages on /rosout_agg
@@ -53,6 +54,16 @@ you can pull up messages using rqt_console: http://wiki.ros.org/rqt_console
 
 https://code.visualstudio.com/Download
 
+- code .
+
+To fix the issue with rospkg:
+
+- sudo apt install python3-pip -y
+- pip3 --version
+- sudo apt update
+- sudo apt install python-pip -y
+- pip --version
+- sudo pip3 install rospkg
 
 ## jackal robot in Gazebo  
 
