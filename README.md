@@ -29,7 +29,7 @@ run the nodes in two new terminals:
 - rosrun hello_world talker.py
 - rosrun hello_world listener.py
 
-rosout is a handy tool for debugging. http://wiki.ros.org/rosout
+rosout is a handy tool for debugging. http://wiki.ros.org/rosout rosout subscribes to the standard /rosout topic, records these messages in a textual log file, and rebroadcasts the messages on /rosout_agg
 
 you can pull up messages using rqt_console: http://wiki.ros.org/rqt_console
 
