@@ -171,7 +171,7 @@ To play a rosbag and remap the topics
 
 - rosbag play --queue=1 filtered_2020-10-23-15-07-52.bag /zed/zed_node/left_raw/camera_info:=/zed/zed_node/left/camera_info /zed/zed_node/right_raw/camera_info:=/zed/zed_node/right/camera_info /zed/zed_node/left_raw/image_raw_gray:=/zed/zed_node/left/image_raw_gray /zed/zed_node/right_raw/image_raw_gray:=/zed/zed_node/right/image_raw_gray 
 
-
+to convert kitti dataset to rosbag: https://github.com/tomas789/kitti2bag
 
 
 A; B    # Run A and then B, regardless of success of A
