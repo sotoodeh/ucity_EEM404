@@ -162,6 +162,15 @@ http://wiki.ros.org/stereo_image_proc/Tutorials/ChoosingGoodStereoParameters
 
 
 
+## rosbag 
+
+- rosbag --help # http://wiki.ros.org/rosbag/Commandline
+- rosbag info 
+
+To play a rosbag and remap the topics
+
+- rosbag play --queue=1 filtered_2020-10-23-15-07-52.bag /zed/zed_node/left_raw/camera_info:=/zed/zed_node/left/camera_info /zed/zed_node/right_raw/camera_info:=/zed/zed_node/right/camera_info /zed/zed_node/left_raw/image_raw_gray:=/zed/zed_node/left/image_raw_gray /zed/zed_node/right_raw/image_raw_gray:=/zed/zed_node/right/image_raw_gray 
+
 
 
 
