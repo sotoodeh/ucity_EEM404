@@ -65,6 +65,7 @@ To fix the issue with rospkg:
 - sudo apt install python-pip -y
 - pip --version
 - sudo pip3 install rospkg
+- sudo apt install python3-catkin-pkg-modules python3-rospkg-modules python3-empy
 
 ## jackal robot in Gazebo  
 
