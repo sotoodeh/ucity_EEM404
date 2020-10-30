@@ -181,13 +181,16 @@ to convert kitti dataset to rosbag: https://github.com/tomas789/kitti2bag
 ## install opencv
 
 1. Open Terminal and run this command to update Apt:
-$ sudo apt-get update
-2. Now, run these commands to install NumPy, SciPy, and OpenCV with
-Python bindings:
-$ sudo apt-get install python-numpy
-$ sudo apt-get install python-scipy
-$ sudo apt-get install libopencv-*
-$ sudo apt-get install python-opencv
+
+- sudo apt-get update
+
+2. Now, run these commands to install NumPy, SciPy, and OpenCV with Python bindings:
+
+- sudo apt-get install python-numpy
+- sudo apt-get install python-scipy
+- sudo apt-get install libopencv-*
+- sudo apt-get install python-opencv
+
 Enter Y whenever prompted about package installation.
 
 
