@@ -184,3 +184,5 @@ A && B  # Run B if and only if A succeeded
 A || B  # Run B if and only if A failed
 
 A &     # Run A in background.
+
+Tutorial: Stereo 3D reconstruction with OpenCV and python (https://medium.com/@omar.ps16/stereo-3d-reconstruction-with-opencv-using-an-iphone-camera-part-iii-95460d3eddf0)
