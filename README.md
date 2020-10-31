@@ -164,7 +164,7 @@ http://wiki.ros.org/stereo_image_proc/Tutorials/ChoosingGoodStereoParameters
 
 ## running libviso2 on jackal in Gazebo
 
-After catkin libviso2 from https://github.com/srv/viso2
+clone and catkin_make libviso2 from https://github.com/srv/viso2
 
 - ROS_NAMESPACE=front rosrun stereo_image_pc stereo_image_proc
 - rosrun viso2_ros stereo_odometer stereo:=front image:=image_rect
