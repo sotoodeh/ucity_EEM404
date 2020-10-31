@@ -167,7 +167,7 @@ http://wiki.ros.org/stereo_image_proc/Tutorials/ChoosingGoodStereoParameters
 After catkin libviso2 from https://github.com/srv/viso2
 
 - ROS_NAMESPACE=front rosrun stereo_image_pc stereo_image_proc
-- rosrun viso2_ros stereo_odometer stereo:=ont image:=image_rect
+- rosrun viso2_ros stereo_odometer stereo:=front image:=image_rect
 - roslaunch jackal_gazebo jackal_world.launch config:=front_bumblebee2
 - rosrun rqt_robot_steering rqt_robot_steering
 - rostopic echo /stereo_odometer/pose
