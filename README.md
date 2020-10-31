@@ -172,6 +172,8 @@ After catkin libviso2 from https://github.com/srv/viso2
 - rosrun rqt_robot_steering rqt_robot_steering
 - rostopic echo /stereo_odometer/pose
 
+## running rtabmap on jackal in Gazebo
+
 ## rosbag 
 
 - rosbag --help # http://wiki.ros.org/rosbag/Commandline
