@@ -219,3 +219,5 @@ python graphslam: https://pypi.org/project/graphslam/
 python pose graph optimisation: https://github.com/shinsumicco/pose-graph-optimization
 
 g2opy: https://github.com/uoip/g2opy
+
+gtsam python: https://github.com/borglab/gtsam/blob/develop/python/gtsam/examples/Pose3SLAMExample_g2o.py
