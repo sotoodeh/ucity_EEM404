@@ -217,3 +217,5 @@ Tutorial: Stereo 3D reconstruction with OpenCV and python (https://medium.com/@o
 python graphslam: https://pypi.org/project/graphslam/
 
 python pose graph optimisation: https://github.com/shinsumicco/pose-graph-optimization
+
+g2opy: https://github.com/uoip/g2opy
