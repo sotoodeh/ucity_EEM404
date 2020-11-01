@@ -221,3 +221,5 @@ python pose graph optimisation: https://github.com/shinsumicco/pose-graph-optimi
 g2opy: https://github.com/uoip/g2opy
 
 gtsam python: https://github.com/borglab/gtsam/blob/develop/python/gtsam/examples/Pose3SLAMExample_g2o.py
+
+to use tf in python: http://wiki.ros.org/tf/TfUsingPython
