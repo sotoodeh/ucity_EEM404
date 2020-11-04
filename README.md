@@ -223,3 +223,28 @@ g2opy: https://github.com/uoip/g2opy
 gtsam python: https://github.com/borglab/gtsam/blob/develop/python/gtsam/examples/Pose3SLAMExample_g2o.py
 
 to use tf in python: http://wiki.ros.org/tf/TfUsingPython
+
+
+## libviso2
+
+in "odometer_base.h" change the "/odom" and "/base_link"
+
+- local_nh.param("odom_frame_id", odom_frame_id_, std::string("/US_origin_ground"));
+- local_nh.param("base_link_frame_id", base_link_frame_id_, std::string("/US_origin"));
+
+- rosbag play --pause 
+
+- rosrun tf view_frames
+- evince frames.pdf
+
+- ROS_NAMESPACE=stereo rosrun stereo_image_proc stereo_image_proc
+
+
+- cd ~/Documents/ucity_lcd_mantis
+- source devel/setup.bash 
+- rosrun ibow-lcd lcd_mantis /stereo/left/image_rect
+
+- cd ~/Documents/libviso2_ws
+- source devel/setup.bash 
+- rosrun viso2_ros stereo_odometer image:=image_rect
+- rostopic echo /stereo_odometer/pose
