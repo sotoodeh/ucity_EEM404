@@ -248,3 +248,8 @@ in "odometer_base.h" change the "/odom" and "/base_link"
 - source devel/setup.bash 
 - rosrun viso2_ros stereo_odometer image:=image_rect
 - rostopic echo /stereo_odometer/pose
+
+
+## rectify cpp
+
+- ./lab_stereo_calibration /path/to/raw camX/%05d.png /path/to/navcam-calibration.yml -s2208x1242
