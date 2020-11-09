@@ -255,9 +255,13 @@ in "odometer_base.h" change the "/odom" and "/base_link"
 - tree
 
 Veles.
+
   ├── cam0
+  
   ├── cam1
+  
   └── stereo
+  
 
 convert the bagfile using lunch file /home/ros/Documents/3D-2D_Stereo_VO/stereo_vo_catkin/src/ucity_kinect/scripts
 
