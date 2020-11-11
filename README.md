@@ -279,6 +279,14 @@ CONNECTING TO WIFI ACCESS POINT
 
 - wicd-curses
 
+To record a rosbag:
+
+- rosbag record /topic1 /topic2 /topic3
+
+Copy a Remote File to a Local System using the scp Command
+
+- scp administrator@@192.168.131.1:/remote/file.txt /local/directory
+
 ## Kinect V1
 
 - sudo apt-get install ros-melodic-openni-camera
