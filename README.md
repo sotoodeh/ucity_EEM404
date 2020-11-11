@@ -282,6 +282,7 @@ CONNECTING TO WIFI ACCESS POINT
 To record a rosbag:
 
 - rosbag record /topic1 /topic2 /topic3
+- /cmd_vel /odometry/filtered /tf /tf_static /zed/zed_node/left_raw/camera_info /zed/zed_node/left_raw/image_raw_gray /zed/zed_node/right_raw/camera_info /zed/zed_node/right_raw/image_raw_gray
 
 Copy a Remote File to a Local System using the scp Command
 
