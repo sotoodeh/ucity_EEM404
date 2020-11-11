@@ -283,3 +283,6 @@ CONNECTING TO WIFI ACCESS POINT
 ## Kinect V2
 
 follow this instruction: https://www.programmersought.com/article/8067544172/
+
+you can also follow this instruction to install libfreenect2 for ubuntu: https://github.com/OpenKinect/libfreenect2
+
