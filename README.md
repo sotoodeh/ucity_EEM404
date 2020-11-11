@@ -279,6 +279,11 @@ CONNECTING TO WIFI ACCESS POINT
 
 - wicd-curses
 
+## Kinect V1
+
+- sudo apt-get install ros-melodic-openni-camera
+- sudo apt-get install ros-melodic-openni-launch
+- roslaunch openni_launch openni.launch
 
 ## Kinect V2
 
