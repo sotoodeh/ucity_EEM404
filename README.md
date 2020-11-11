@@ -266,3 +266,17 @@ Veles.
 convert the bagfile using lunch file /home/ros/Documents/3D-2D_Stereo_VO/stereo_vo_catkin/src/ucity_kinect/scripts
 
 - ./lab_stereo_calibration /path/to/raw camX/%05d.png /path/to/navcam-calibration.yml -s2208x1242
+
+
+## Jackal robot
+
+remotely connection:
+
+- ssh administrator@192.168.131.1
+- The default password is clearpath
+
+CONNECTING TO WIFI ACCESS POINT
+
+- wicd-curses
+
+
