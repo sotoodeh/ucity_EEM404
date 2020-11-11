@@ -285,7 +285,7 @@ To record a rosbag:
 
 Copy a Remote File to a Local System using the scp Command
 
-- scp administrator@@192.168.131.1:/remote/file.txt /local/directory
+- scp administrator@192.168.131.1:/remote/file.txt /local/directory
 
 ## Kinect V1
 
