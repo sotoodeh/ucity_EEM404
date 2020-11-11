@@ -280,3 +280,6 @@ CONNECTING TO WIFI ACCESS POINT
 - wicd-curses
 
 
+## Kinect V2
+
+follow this instruction: https://www.programmersought.com/article/8067544172/
