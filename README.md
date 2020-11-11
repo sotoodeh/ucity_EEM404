@@ -279,6 +279,8 @@ CONNECTING TO WIFI ACCESS POINT
 
 - wicd-curses
 
+find the city-guest, then config it and enter the password, then connect 
+
 To record a rosbag:
 
 - rosbag record /topic1 /topic2 /topic3
