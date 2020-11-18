@@ -203,6 +203,9 @@ to convert kitti dataset to rosbag: https://github.com/tomas789/kitti2bag
 
 Enter Y whenever prompted about package installation.
 
+for python:
+
+- pip install opencv-python==3.3.0.10 opencv-contrib-python==3.3.0.10
 
 A; B    # Run A and then B, regardless of success of A
 
