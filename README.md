@@ -293,6 +293,10 @@ Copy a Remote File to a Local System using the scp Command
 
 - scp administrator@192.168.131.1:/remote/file.txt /local/directory
 
+instruction to connect to real robot via wifi
+
+https://answers.ros.org/question/297000/cannot-connect-to-jackal-clear-path-from-my-laptop/
+
 ## Kinect V1
 
 - sudo apt-get install ros-melodic-openni-camera
