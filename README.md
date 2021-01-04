@@ -297,6 +297,18 @@ instruction to connect to real robot via wifi
 
 https://answers.ros.org/question/297000/cannot-connect-to-jackal-clear-path-from-my-laptop/
 
+
+To ssh via wifi and record a rosbag, after connecting to the local AP:
+
+- ssh administrator@192.168.1.101
+- cd catkin_ws
+- source devel/setup.bash
+- roslaunch zed_wrapper zed.launch
+- rosbag record /cmd_vel /odometry/filtered /tf /tf_static /zed/zed_node/left_raw/camera_info /zed/zed_node/left_raw/image_raw_gray /zed/zed_node/right_raw/camera_info /zed/zed_node/right_raw/image_raw_gray /imu/data /imu/data_raw /imu/mag /imu_filter/parameter_descriptions /imu_filter/parameter_updates
+- scp administrator@192.168.1.101:/home/administrator/2021-01-04-12-07-43.bag /home/ros/Documents/jackal_2021_dataset
+
+
+
 ## Kinect V1
 
 - sudo apt-get install ros-melodic-openni-camera
