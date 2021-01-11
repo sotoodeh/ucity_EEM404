@@ -328,3 +328,8 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - rosbag play --pause -r 1 ../Data\ Set/Jackal-CG41/filtered_2020-10-23-15-07-52.bag /zed/zed_node/left_raw/image_raw_gray:=/zed/zed_node/left/image_raw /zed/zed_node/right_raw/image_raw_gray:=/zed/zed_node/right/image_raw /zed/zed_node/left_raw/camera_info:=/zed/zed_node/left/camera_info /zed/zed_node/right_raw/camera_info:=/zed/zed_node/right/camera_info
 - ROS_NAMESPACE=zed/node rosrun stereo_image_proc stereo_image_proc
 - rosrun ucity_vo_py ros_stereo_vo_work.py
+
+
+## Decimal issues in python
+
+https://mpmath.org/doc/current/technical.html
