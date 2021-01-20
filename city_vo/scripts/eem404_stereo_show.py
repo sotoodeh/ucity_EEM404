@@ -11,9 +11,9 @@ __status__ = "Production"
 
 '''
     source devel/setup.bash
-    chmod +x src/ucity_vo_py/scripts/jackal_ros_vo.py
-    rosrun ucity_klt ucity_vo_surf_class.py 
-    rosbag play --pause -r .2 filtered_2020-10-23-15-07-52.bag /zed/zed_node/left_raw/camera_info:=/stereo/left/camera_info /zed/zed_node/left_raw/image_raw_gray:=/stereo/left/image_raw /zed/zed_node/right_raw/camera_info:=/stereo/right/camera_info /zed/zed_node/right_raw/image_raw_gray:=/stereo/right/image_raw
+    chmod +x src/city_vo/scripts/eem404_stereo_show.py
+    rosrun city_vo eem404_stereo_show.py
+    rosbag play --pause -r .2 eem404_bag_cg41.bag /zed/zed_node/left_raw/camera_info:=/stereo/left/camera_info /zed/zed_node/left_raw/image_raw_gray:=/stereo/left/image_raw /zed/zed_node/right_raw/camera_info:=/stereo/right/camera_info /zed/zed_node/right_raw/image_raw_gray:=/stereo/right/image_raw
     ROS_NAMESPACE=stereo rosrun stereo_image_proc stereo_image_proc
 '''
 
