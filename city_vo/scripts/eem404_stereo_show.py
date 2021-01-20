@@ -9,6 +9,15 @@ __maintainer__ = "Masoud S. Bahraini"
 __email__ = "sotoodeh.bahraini@city.ac.uk"
 __status__ = "Production"
 
+'''
+    source devel/setup.bash
+    chmod +x src/ucity_vo_py/scripts/jackal_ros_vo.py
+    rosrun ucity_klt ucity_vo_surf_class.py 
+    rosbag play --pause -r .2 filtered_2020-10-23-15-07-52.bag /zed/zed_node/left_raw/camera_info:=/stereo/left/camera_info /zed/zed_node/left_raw/image_raw_gray:=/stereo/left/image_raw /zed/zed_node/right_raw/camera_info:=/stereo/right/camera_info /zed/zed_node/right_raw/image_raw_gray:=/stereo/right/image_raw
+    ROS_NAMESPACE=stereo rosrun stereo_image_proc stereo_image_proc
+'''
+
+
 # The first section of the Python code is given in the following code fragment. It mainly
 # involves importing rospy , sys , cv2 , sensor_msgs , cv_bridge, and the numpy module.
 # The sensor_msgs dependency imports the ROS data type of both image and camera
