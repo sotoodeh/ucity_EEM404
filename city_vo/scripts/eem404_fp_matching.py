@@ -59,7 +59,7 @@ class fp_matching_Demo():
         # feature_type = "SURF"   (Speeded-Up Robust Features)
         # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_surf_intro/py_surf_intro.html
         self.feature_extractor = cv2.xfeatures2d.SURF_create()
-        self.disparity_type = "BM"   # "BM+WLS","BM"
+        # self.disparity_type = "BM"   # "BM+WLS","BM"
         rospy.loginfo("Parameters have been set ...")
         # disparity parameter setting
         self.disparity_setting()
