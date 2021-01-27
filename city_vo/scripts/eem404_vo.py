@@ -15,7 +15,7 @@ __status__ = "Production"
     catkin_create_pkg city_vo rospy sensor_msgs cv_bridge message_filters
     catkin_make (or catkin build)
     source devel/setup.bash
-    chmod +x src/ucity_vo/scripts/eem404.py
+    chmod +x src/ucity_vo/scripts/eem404_vo.py
     rosrun ucity_vo eem404_vo.py 
     rosbag play --pause -r .02 eem404_bag_cg41.bag /zed/zed_node/left_raw/camera_info:=/stereo/left/camera_info /zed/zed_node/left_raw/image_raw_gray:=/stereo/left/image_raw /zed/zed_node/right_raw/camera_info:=/stereo/right/camera_info /zed/zed_node/right_raw/image_raw_gray:=/stereo/right/image_raw
     ROS_NAMESPACE=stereo rosrun stereo_image_proc stereo_image_proc
