@@ -332,4 +332,11 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 
 ## Decimal issues in python
 
+Representation error refers to the fact that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many others) often won’t display the exact decimal number you expect:
+
+>>> 0.1 + 0.2
+0.30000000000000004
+
 https://mpmath.org/doc/current/technical.html
+
+https://docs.python.org/2/tutorial/floatingpoint.html
