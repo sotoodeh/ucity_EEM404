@@ -338,6 +338,8 @@ Representation error refers to the fact that some (most, actually) decimal fract
 
 0.30000000000000004
 
+Note that this is in the very nature of binary floating-point: this is not a bug in Python, and it is not a bug in your code either. You’ll see the same kind of thing in all languages that support your hardware’s floating-point arithmetic (although some languages may not display the difference by default, or in all output modes).
+
 https://mpmath.org/doc/current/technical.html
 
 https://docs.python.org/2/tutorial/floatingpoint.html
