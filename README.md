@@ -334,9 +334,13 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 
 Representation error refers to the fact that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many others) often won’t display the exact decimal number you expect:
 
->>> 0.1 + 0.2
+print(0.1 + 0.2)
 
 0.30000000000000004
+
+print(round(0.1+0.3,2))
+
+0.3
 
 Note that this is in the very nature of binary floating-point: this is not a bug in Python, and it is not a bug in your code either. You’ll see the same kind of thing in all languages that support your hardware’s floating-point arithmetic (although some languages may not display the difference by default, or in all output modes).
 
