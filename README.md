@@ -207,6 +207,13 @@ for python:
 
 - pip install opencv-python==3.3.0.10 opencv-contrib-python==3.3.0.10
 
+if there is an error in vscode about cv2 or PyLint not recognizing cv2 members:
+
+1- On VScode: CTRL + Shift + P
+2- Choose "Preferences: Open Settings (JSON)"
+3- Add this line into JSON file: "python.linting.pylintArgs": ["--generate-members"]
+
+
 A; B    # Run A and then B, regardless of success of A
 
 A && B  # Run B if and only if A succeeded
