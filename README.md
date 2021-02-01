@@ -216,6 +216,9 @@ if there is an error in vscode about cv2 or PyLint not recognizing cv2 members:
 3- Add this line into JSON file: "python.linting.pylintArgs": ["--generate-members"]
 
 
+
+To run multi commands in terminal:
+
 A; B    # Run A and then B, regardless of success of A
 
 A && B  # Run B if and only if A succeeded
@@ -223,6 +226,8 @@ A && B  # Run B if and only if A succeeded
 A || B  # Run B if and only if A failed
 
 A &     # Run A in background.
+
+
 
 Tutorial: Stereo 3D reconstruction with OpenCV and python (https://medium.com/@omar.ps16/stereo-3d-reconstruction-with-opencv-using-an-iphone-camera-part-iii-95460d3eddf0)
 
