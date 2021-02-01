@@ -210,7 +210,9 @@ for python:
 if there is an error in vscode about cv2 or PyLint not recognizing cv2 members:
 
 1- On VScode: CTRL + Shift + P
+
 2- Choose "Preferences: Open Settings (JSON)"
+
 3- Add this line into JSON file: "python.linting.pylintArgs": ["--generate-members"]
 
 
