@@ -2,6 +2,17 @@
     plot poses via reading from poses_vo.csv
 '''
 
+
+__author__ = "Masoud S. Bahraini"
+__copyright__ = "Copyright 2021, City, University of London"
+__credits__ = ["Masoud S. Bahraini"]
+__license__ = "GPL"
+__version__ = "1.0.1"
+__maintainer__ = "Masoud S. Bahraini"
+__email__ = "sotoodeh.bahraini@city.ac.uk"
+__status__ = "Production"
+
+
 import csv
 from collections import defaultdict
 import numpy as np
