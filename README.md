@@ -344,6 +344,20 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - rosrun ucity_vo_py ros_stereo_vo_work.py
 
 
+## g20py installation
+
+- sudo apt-get install libqglviewer-dev-qt5
+- sudo apt-get install libsuitesparse-dev
+
+- git clone https://github.com/uoip/g2opy.git
+- cd g2opy
+- mkdir build
+- cd build
+- cmake ..
+- make -j8
+- cd ..
+- python setup.py install
+
 ## Decimal issues in python
 
 Representation error refers to the fact that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many others) often won’t display the exact decimal number you expect:
