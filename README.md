@@ -348,6 +348,8 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 
 - sudo apt-get install libqglviewer-dev-qt5
 - sudo apt-get install libsuitesparse-dev
+- sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
+
 
 - git clone https://github.com/uoip/g2opy.git
 - cd g2opy
