@@ -344,11 +344,11 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - rosrun ucity_vo_py ros_stereo_vo_work.py
 
 
-## g20py installation
+## g2opy installation
 
 - sudo apt-get install libqglviewer-dev-qt5
 - sudo apt-get install libsuitesparse-dev
-- sudo apt-get install python3.8 python3.8-dev python3.8-distutils python3.8-venv
+- sudo apt-get install python3.6 python3.6-dev python3.6-distutils python3.6-venv
 
 
 - git clone https://github.com/uoip/g2opy.git
@@ -358,7 +358,7 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - cmake ..
 - make -j8
 - cd ..
-- python setup.py install
+- python3 setup.py install // (also with sudo if it is needed)
 
 ## Decimal issues in python
 
