@@ -360,6 +360,21 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - cd ..
 - python3 setup.py install // (also with sudo if it is needed)
 
+## install pangolin for python
+
+- pip3 install pyopengl
+- sudo apt-get install libglew-dev
+
+- git clone https://github.com/uoip/pangolin.git
+- cd pangolin
+- mkdir build
+- cd build
+- cmake -DPYBIND11_PYTHON_VERSION=3.6 ..
+- make -j8
+- cd ..
+- sudo python3 setup.py install
+
+
 ## Decimal issues in python
 
 Representation error refers to the fact that some (most, actually) decimal fractions cannot be represented exactly as binary (base 2) fractions. This is the chief reason why Python (or Perl, C, C++, Java, Fortran, and many others) often won’t display the exact decimal number you expect:
