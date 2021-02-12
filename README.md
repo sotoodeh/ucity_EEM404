@@ -372,6 +372,9 @@ you can also follow this instruction to install libfreenect2 for ubuntu: https:/
 - cmake -DPYBIND11_PYTHON_VERSION=3.6 ..
 - make -j8
 - cd ..
+
+open setup.py, and fix the issue with "install_dirs" which must be "install_dir"
+
 - sudo python3 setup.py install
 
 
