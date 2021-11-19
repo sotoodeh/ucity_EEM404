@@ -68,6 +68,22 @@ To fix the issue with rospkg:
 - sudo apt install python3-catkin-pkg-modules python3-rospkg-modules python3-empy
 
 
+## Gazebo
+
+To install Gazebo
+
+- sudo apt-get install ros-melodic-gazebo-ros-pkgs ros-melodic-gazebo-ros-control
+- gazebo --version
+
+To launch Gazebo 
+
+- roscore & rosrun gazebo_ros gazebo
+
+or
+
+- roslaunch gazebo_ros empty_world.launch
+
+
 ## jackal robot in Gazebo  
 
 Jackal is a small, fast, entry-level field robotics research platform. It has an onboard computer, GPS and IMU fully integrated with ROS for out-of-the-box autonomous capability. As with all Clearpath robots, Jackal is plug-and-play compatible with a huge list of robot accessories to quickly expand your research and development.
